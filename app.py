@@ -83,7 +83,7 @@ with st.sidebar:
                     with tempfile.NamedTemporaryFile(delete=False, suffix=".pdf") as tmp_file:
                         tmp_file.write(uploaded_file.getvalue())
                         tmp_file_path = tmp_file.name
-                        embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
+                        embeddings = HuggingFaceEmbeddings(model_name="BAAI/bge-small-en-v1.5")
                     # Load PDF
                     loader = PyPDFLoader(tmp_file_path)
                     docs = loader.load()
