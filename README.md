@@ -51,6 +51,7 @@ flowchart TD
     E --> F[Retrieval + LLM (ChatGroq)]
     F --> G[InsightIQ UI – Streamlit Chat]
 
+
 ## 🚀 Setup Instructions  
 
 ### 1️⃣ Clone this repository  
