@@ -59,6 +59,7 @@ flowchart TD
 git clone https://github.com/<your-username>/InsightIQ.git
 cd InsightIQ
 
+--
 ### 2️⃣ Create a virtual environment
 ```bash
 python -m venv venv
