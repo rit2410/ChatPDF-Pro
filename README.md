@@ -49,6 +49,7 @@ flowchart TD
     D --> E[🗂️ FAISS Vector Store]
     E --> F[💬 Retrieval + LLM (ChatGroq)]
     F --> G[🎯 InsightIQ UI – Streamlit Chat]
+```
 --
 
 ## 🚀 Setup Instructions  
