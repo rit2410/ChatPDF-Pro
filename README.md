@@ -42,7 +42,6 @@ insightful, context-aware answers — making it a smart **Research Buddy** and *
 
 ## 🏗️ Architecture Overview  
 
-```mermaid
 flowchart TD
     A[PDF Upload] --> B[Text Extraction via PyPDFLoader]
     B --> C[Chunking with Recursive Text Splitter]
