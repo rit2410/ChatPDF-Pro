@@ -39,17 +39,17 @@ insightful, context-aware answers — making it a smart **Research Buddy** and *
 | **UI Styling** | Custom CSS (Responsive & Clean) |
 
 ---
+## 🏗️ Architecture Overview
 
-## 🏗️ Architecture Overview  
+```mermaid
 flowchart TD
-    A[PDF Upload] --> B[Text Extraction via PyPDFLoader]
-    B --> C[Chunking with Recursive Text Splitter]
-    C --> D[Vector Embeddings with Sentence-Transformers]
-    D --> E[FAISS Vector Store]
-    E --> F[Retrieval + LLM (ChatGroq)]
-    F --> G[InsightIQ UI – Streamlit Chat]
-
----
+    A[📄 PDF Upload] --> B[🧠 Text Extraction via PyPDFLoader]
+    B --> C[🧩 Chunking with Recursive Text Splitter]
+    C --> D[🔡 Vector Embeddings via Sentence-Transformers]
+    D --> E[🗂️ FAISS Vector Store]
+    E --> F[💬 Retrieval + LLM (ChatGroq)]
+    F --> G[🎯 InsightIQ UI – Streamlit Chat]
+--
 
 ## 🚀 Setup Instructions  
 
