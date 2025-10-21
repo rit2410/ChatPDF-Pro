@@ -41,7 +41,6 @@ insightful, context-aware answers — making it a smart **Research Buddy** and *
 ---
 
 ## 🏗️ Architecture Overview  
-
 flowchart TD
     A[PDF Upload] --> B[Text Extraction via PyPDFLoader]
     B --> C[Chunking with Recursive Text Splitter]
@@ -50,6 +49,7 @@ flowchart TD
     E --> F[Retrieval + LLM (ChatGroq)]
     F --> G[InsightIQ UI – Streamlit Chat]
 
+---
 
 ## 🚀 Setup Instructions  
 
@@ -68,6 +68,8 @@ pip install -r requirements.txt
 
 ### 4️⃣ Run the app
 streamlit run app.py
+
+---
 
 ### 🧩 Folder Structure
 InsightIQ/
