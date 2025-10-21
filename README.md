@@ -50,7 +50,7 @@ graph TD
     E --> F[💬 Retrieval + LLM ChatGroq]
     F --> G[🎯 InsightIQ UI – Streamlit Chat]
 ```
---
+
 ## 🚀 Setup Instructions  
 
 ### 1️⃣ Clone this repository  
@@ -58,7 +58,7 @@ graph TD
 git clone https://github.com/<your-username>/InsightIQ.git
 cd InsightIQ
 
-### 2️⃣ Create a virtual environment
+**###** 2️⃣ **Create a virtual environment**
 
 python -m venv venv
 source venv/bin/activate  # (on macOS/Linux)
