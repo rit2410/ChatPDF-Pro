@@ -51,19 +51,25 @@ flowchart TD
     E --> F[Retrieval + LLM (ChatGroq)]
     F --> G[InsightIQ UI – Streamlit Chat]
 
-🚀 Setup Instructions
-Clone this repository
+## 🚀 Setup Instructions  
+
+### 1️⃣ Clone this repository  
+```bash
 git clone https://github.com/<your-username>/InsightIQ.git
 cd InsightIQ
-Create a virtual environment
+
+### 2️⃣ Create a virtual environment
 python -m venv venv
 source venv/bin/activate  # (on macOS/Linux)
 venv\Scripts\activate     # (on Windows)
-Install dependencies
+
+### 3️⃣ Install dependencies
 pip install -r requirements.txt
-Run the app
+
+### 4️⃣ Run the app
 streamlit run app.py
-🧩 Folder Structure
+
+### 🧩 Folder Structure
 InsightIQ/
 │
 ├── app.py                 # Main Streamlit application
@@ -71,12 +77,13 @@ InsightIQ/
 ├── README.md              # Project documentation
 └── assets/ (optional)     # Icons, sample PDFs, screenshots
 
-🌟 UI Highlights
-Modern, responsive layout with tabs for Upload & Analyze and Chat.
-Consistent blue-themed styling across buttons and badges.
-Large, readable typography and intuitive workflow.
-💡 Future Enhancements
-🧾 Analyst Mode (business report understanding).
-🧠 Fine-tuned domain models for research fields.
-🗂️ Multi-document comparison.
-💾 Save & export chat sessions.
+### 🌟 UI Highlights
+- Modern, responsive layout with tabs for Upload & Analyze and Chat.
+- Consistent blue-themed styling across buttons and badges.
+- Large, readable typography and intuitive workflow.
+
+### 💡 Future Enhancements
+- 🧾 Analyst Mode (business report understanding).
+- 🧠 Fine-tuned domain models for research fields.
+- 🗂️ Multi-document comparison.
+- 💾 Save & export chat sessions.
