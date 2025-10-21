@@ -51,6 +51,16 @@ flowchart TD;
     F --> G[🎯 InsightIQ UI – Streamlit Chat];
 ```
 
+Here is a simple flow chart:
+
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
+
 ## 🚀 Setup Instructions  
 
 ### 1️⃣ Clone this repository  
