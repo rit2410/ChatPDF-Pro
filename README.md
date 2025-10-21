@@ -40,14 +40,13 @@ insightful, context-aware answers — making it a smart **Research Buddy** and *
 
 ---
 ## 🏗️ Architecture Overview
-
 graph TD
-    A[📄 PDF Upload] --> B[🧠 Text Extraction via PyPDFLoader]
-    B --> C[🧩 Chunking with Recursive Text Splitter]
-    C --> D[🔡 Vector Embeddings via Sentence-Transformers]
-    D --> E[🗂️ FAISS Vector Store]
-    E --> F[💬 Retrieval + LLM ChatGroq]
-    F --> G[🎯 InsightIQ UI – Streamlit Chat]
+    A[PDF Upload] --> B[Text Extraction]
+    B --> C[Text Chunking]
+    C --> D[Vector Embeddings]
+    D --> E[FAISS Storage]
+    E --> F[RAG Pipeline]
+    F --> G[Chat Interface]
 
 ## 🚀 Setup Instructions  
 
