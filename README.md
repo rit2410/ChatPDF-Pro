@@ -60,6 +60,7 @@ git clone https://github.com/<your-username>/InsightIQ.git
 cd InsightIQ
 
 ### 2️⃣ Create a virtual environment
+```bash
 python -m venv venv
 source venv/bin/activate  # (on macOS/Linux)
 venv\Scripts\activate     # (on Windows)
