@@ -57,26 +57,34 @@ graph TD
 ```bash
 git clone https://github.com/<your-username>/InsightIQ.git
 cd InsightIQ
+```
+### 2️⃣ **Create a virtual environment**
 
-**###** 2️⃣ **Create a virtual environment**
-
+```bash
 python -m venv venv
 source venv/bin/activate  # (on macOS/Linux)
 venv\Scripts\activate     # (on Windows)
+```
 
 ### 3️⃣ Install dependencies
+```bash
 pip install -r requirements.txt
+```
 
 ### 4️⃣ Run the app
+```bash
 streamlit run app.py
+```
 
 ### 🧩 Folder Structure
+```bash
 InsightIQ/
 │
 ├── app.py                 # Main Streamlit application
 ├── requirements.txt       # Project dependencies
 ├── README.md              # Project documentation
 └── assets/ (optional)     # Icons, sample PDFs, screenshots
+```
 
 ### 🌟 UI Highlights
 - Modern, responsive layout with tabs for Upload & Analyze and Chat.
