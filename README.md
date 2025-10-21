@@ -14,7 +14,7 @@ insightful, context-aware answers — making it a smart **Research Buddy** and *
 - Extract key ideas: problem statement, methods, results, limitations.  
 - Chat naturally about the document using context-aware LLMs.  
 
-### 📊 Analyst Mode *(coming soon)*  
+### 📊 Analyst Mode
 - Analyze business and financial reports.  
 - Generate executive summaries and KPI insights.  
 - Highlight patterns and trends with contextual explanations.  
