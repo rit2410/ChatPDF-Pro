@@ -42,15 +42,14 @@ insightful, context-aware answers — making it a smart **Research Buddy** and *
 ## 🏗️ Architecture Overview
 
 ```mermaid
-flowchart TD
-    A[📄 PDF Upload] --> B[🧠 Text Extraction via PyPDFLoader]
-    B --> C[🧩 Chunking with Recursive Text Splitter]
-    C --> D[🔡 Vector Embeddings via Sentence-Transformers]
-    D --> E[🗂️ FAISS Vector Store]
-    E --> F[💬 Retrieval + LLM (ChatGroq)]
-    F --> G[🎯 InsightIQ UI – Streamlit Chat]
+flowchart TD;
+    A[📄 PDF Upload] --> B[🧠 Text Extraction via PyPDFLoader];
+    B --> C[🧩 Chunking with Recursive Text Splitter];
+    C --> D[🔡 Vector Embeddings via Sentence-Transformers];
+    D --> E[🗂️ FAISS Vector Store];
+    E --> F[💬 Retrieval + LLM (ChatGroq)];
+    F --> G[🎯 InsightIQ UI – Streamlit Chat];
 ```
---
 
 ## 🚀 Setup Instructions  
 
@@ -59,9 +58,8 @@ flowchart TD
 git clone https://github.com/<your-username>/InsightIQ.git
 cd InsightIQ
 
---
 ### 2️⃣ Create a virtual environment
-```bash
+
 python -m venv venv
 source venv/bin/activate  # (on macOS/Linux)
 venv\Scripts\activate     # (on Windows)
@@ -71,8 +69,6 @@ pip install -r requirements.txt
 
 ### 4️⃣ Run the app
 streamlit run app.py
-
----
 
 ### 🧩 Folder Structure
 InsightIQ/
