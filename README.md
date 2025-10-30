@@ -1,4 +1,4 @@
-# 🚀 InsightIQ – Intelligent Research & Analytics Assistant  
+#  InsightIQ – Intelligent Research & Analytics Assistant  
 
 **InsightIQ** is an AI-powered Streamlit app that lets users **chat with research papers, PDFs, and business reports**.  
 It combines **document understanding**, **retrieval-augmented generation (RAG)**, and **LLM-based reasoning** to provide  
@@ -6,27 +6,27 @@ insightful, context-aware answers — making it a smart **Research Buddy** and *
 
 ---
 
-## 🧠 Key Features  
+## Key Features  
 
-### 🔍 Research Mode  
+### Research Mode  
 - Upload academic papers or technical PDFs.  
 - Summarize the paper (short, medium, or detailed).  
 - Extract key ideas: problem statement, methods, results, limitations.  
 - Chat naturally about the document using context-aware LLMs.  
 
-### 📊 Analyst Mode
+###  Analyst Mode
 - Analyze business and financial reports.  
 - Generate executive summaries and KPI insights.  
 - Highlight patterns and trends with contextual explanations.  
 
-### 💬 Smart Conversational Layer  
+### Smart Conversational Layer  
 - Hybrid intent detection (casual / document / general).  
 - Natural responses with contextual memory.  
 - Handles small talk while staying focused on the document.  
 
 ---
 
-## ⚙️ Tech Stack  
+## Tech Stack  
 
 | Component | Technology |
 |------------|-------------|
@@ -39,26 +39,26 @@ insightful, context-aware answers — making it a smart **Research Buddy** and *
 | **UI Styling** | Custom CSS (Responsive & Clean) |
 
 ---
-## 🏗️ Architecture Overview
+##  Architecture Overview
 
 ```mermaid
 graph TD
-    A[📄 PDF Upload] --> B[🧠 Text Extraction via PyPDFLoader]
-    B --> C[🧩 Chunking with Recursive Text Splitter]
-    C --> D[🔡 Vector Embeddings via Sentence-Transformers]
-    D --> E[🗂️ FAISS Vector Store]
-    E --> F[💬 Retrieval + LLM ChatGroq]
-    F --> G[🎯 InsightIQ UI – Streamlit Chat]
+    A[PDF Upload] --> B[Text Extraction via PyPDFLoader]
+    B --> C[Chunking with Recursive Text Splitter]
+    C --> D[Vector Embeddings via Sentence-Transformers]
+    D --> E[FAISS Vector Store]
+    E --> F[Retrieval + LLM ChatGroq]
+    F --> G[InsightIQ UI – Streamlit Chat]
 ```
 
-## 🚀 Setup Instructions  
+## Setup Instructions  
 
-### 1️⃣ Clone this repository  
+### 1. Clone this repository  
 ```bash
 git clone https://github.com/<your-username>/InsightIQ.git
 cd InsightIQ
 ```
-### 2️⃣ **Create a virtual environment**
+### 2. **Create a virtual environment**
 
 ```bash
 python -m venv venv
@@ -66,17 +66,17 @@ source venv/bin/activate  # (on macOS/Linux)
 venv\Scripts\activate     # (on Windows)
 ```
 
-### 3️⃣ Install dependencies
+### 3. Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4️⃣ Run the app
+### 4. Run the app
 ```bash
 streamlit run app.py
 ```
 
-### 🧩 Folder Structure
+### Folder Structure
 ```bash
 InsightIQ/
 │
@@ -86,13 +86,13 @@ InsightIQ/
 └── assets/ (optional)     # Icons, sample PDFs, screenshots
 ```
 
-### 🌟 UI Highlights
+### UI Highlights
 - Modern, responsive layout with tabs for Upload & Analyze and Chat.
 - Consistent blue-themed styling across buttons and badges.
 - Large, readable typography and intuitive workflow.
 
-### 💡 Future Enhancements
-- 🧾 Analyst Mode (business report understanding).
-- 🧠 Fine-tuned domain models for research fields.
-- 🗂️ Multi-document comparison.
-- 💾 Save & export chat sessions.
+### Future Enhancements
+-  Analyst Mode (business report understanding).
+-  Fine-tuned domain models for research fields.
+-  Multi-document comparison.
+-  Save & export chat sessions.
