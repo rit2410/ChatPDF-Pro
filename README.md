@@ -96,3 +96,7 @@ InsightIQ/
 -  Fine-tuned domain models for research fields.
 -  Multi-document comparison.
 -  Save & export chat sessions.
+  
+## Deployed Application
+
+https://insightiq-pro.streamlit.app
